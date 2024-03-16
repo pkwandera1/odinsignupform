@@ -1,0 +1,81 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(117, 117, 117);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#right {
+    background-color: white;
+    height: 100vh;
+    margin-top: 0;
+}
+.logo-background {
+    background-image: url(images/mars-plex-knH05eGDEwc-unsplash.jpg);
+    width: 600px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+}
+#button {
+    background-color: #596D48;
+}
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
+}
+.credentials {
+    display: flex;
+}
+.column1, .column2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.logo {
+    position: relative;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.486);
+    
+}
+span {
+    position: relative;
+    bottom: 20px;
+    left: 30%;
+    color: blanchedalmond;
+    font-family: 'Dancing Script', Courier, monospace;
+    font-size: 36px;
+}
+.form {
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+label + input {
+    margin: 3px 0 15px 0;
+    width: 230px;
+}
+p, #button {
+    margin-left: 10px;
+    max-width: 75%;
+}
+hr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.form-para {
+    font-size: 18px;
+    font-weight: bold;
+}
+.login-para {
+    
+}
+input:invalid {
+    border: 1px solid red;
+}

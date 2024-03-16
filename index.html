@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="logo-background">
+        <div class="logo">
+            <img src="images/milad-fakurian-PpgY7sjpf_0-unsplash.jpg" alt="">
+            <span>Creative</span>
+        </div>
+    </div>
+    <div class="right" id="right">
+        <div class="form">
+            <p class="form-para">
+                Hello, have a look this important element. It is part of your powerful tools in the online world.
+                Sign up and head on to this important element
+            </p>
+            <p class="form-para">
+                Yes, kindly go ahead!
+            </p>
+            <form id="myForm" action="file:///home/pk/My%20Git%20Repos/odinsignupform/index.html">
+                <div class="credentials">
+                    <div class="column1">
+                        <label for="first_name">First Name*</label>
+                        <input type="text" id="first_name" required>
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" required>
+                        <label for="password">Password*</label>
+                        <input type="password" id="password" pattern="^(?=.*[A-Z])(?=.*[\W_]).{8,}$" required>
+                    </div>
+                    <div class="column2">
+                        <label for="last_name">Last Name*</label>
+                        <input type="text" id="last_name" required>
+                        <label for="phone_number">Phone*</label>
+                        <input type="tel" id="tel" pattern="[0-9]{10}" required>
+                        <label for="Confirm_password">Confirm Password</label>
+                        <input type="password" id="confirmpassword" pattern="^(?=.*[A-Z])(?=.*[\W_]).{8,}$">
+                        <small id="passwordMatchMessage"></small>
+                    </div>
+                </div>
+                <hr>
+                <button type="submit">
+                    Create account
+                </button>
+            </form>
+            <p class="login-para">
+                Already have an account? <a href="">Log in</a>
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
